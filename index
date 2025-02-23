@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minha Lista de Livros</h1>
+    <form id="form-livro">
+        <input type="text" id="titulo" placeholder="Nome do livro" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+        <input type="text" id="categoria" placeholder="Categoria">
+        <input type="text" id="indicacao" placeholder="Indicação">
+        <textarea id="notas" placeholder="Notas sobre o livro"></textarea>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <h2>Livros para ler</h2>
+    <ul id="lista-livros"></ul>
+
+    <h2>Livros lidos</h2>
+    <ul id="lista-lidos"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
